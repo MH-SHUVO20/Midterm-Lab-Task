@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.profile {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.pimg {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.bio {
+    margin-top: 10px;
+    font-size: 1em;
+}
