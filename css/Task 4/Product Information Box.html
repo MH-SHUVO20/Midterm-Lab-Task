@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Product Display Section</title>
+
+    <style>
+        .product {
+            display: inline-block;
+            width: 250px;
+            height: 430px; 
+            padding: 15px;
+            margin: 15px;
+            border: 2px solid black;
+            background-color: lightgray;
+            text-align: center;
+            box-sizing: border-box;
+            vertical-align: top;
+        }
+
+        .product:hover {
+            outline: 4px solid blue;
+            outline-offset: 5px;
+        }
+
+        .product img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+        }
+
+        .description {
+            height: 110px; 
+            overflow: hidden;
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="product">
+        <img src="laptop.webp" alt="Acer Predator Helios Neo 16">
+        <h3>Acer Predator Helios Neo 16</h3>
+        <p class="description">A high-performance gaming laptop with a 16-inch display, powerful CPU/GPU, and advanced cooling for smooth gameplay.</p>
+        <p><b>Price: 205,000 Tk</b></p>
+        <a href="#">Buy Now</a>
+    </div>
+
+    <div class="product">
+        <img src="Headphone.webp" alt="Apple AirPods Max">
+        <h3>Apple AirPods Max</h3>
+        <p class="description">Premium over-ear headphones offering immersive sound, active noise cancellation, and seamless Apple ecosystem integration.</p>
+        <p><b>Price: 69,000 Tk</b></p>
+        <a href="#">Buy Now</a>
+    </div>
+
+    <div class="product">
+        <img src="Apple-Watch-Ultra-3-Black-Alpine-Loop-Black-9096.webp" alt="Apple Watch Ultra 3 ">
+        <h3>Apple Watch Ultra 3</h3>
+        <p class="description">Rugged smartwatch with advanced health tracking, GPS, and extended battery life, designed for extreme activities and outdoor adventures.</p>
+        <p><b>Price: 99,500 Tk</b></p>
+        <a href="#">Buy Now</a>
+    </div>
+
+</body>
+</html>
