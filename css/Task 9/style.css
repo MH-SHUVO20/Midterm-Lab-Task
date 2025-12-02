@@ -1,0 +1,30 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+
+        }
+.section {
+            display: inline-block;
+            vertical-align: top;
+            padding: 15px;
+            border: 2px solid rgb(30, 209, 33);
+            margin: 5px;
+        }
+#sidebar {
+            width: 20%;
+            background: #1c63ae;
+            
+        }
+#main {
+            width: 60%;
+            background: #a44f0e;
+            
+        }
+#ads {
+            width: 20%;
+            background: #ffd1fd;
+        }
+.wrapper {
+            white-space: nowrap;
+        }
