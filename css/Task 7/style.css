@@ -8,16 +8,16 @@ body {
 header {
             position: sticky;  
             top: 0;           
-            background-color: #222;
-            color: white;
+            background-color: rgb(10, 109, 89);
+            color: rgb(209, 163, 10);
             padding: 20px;
-            border-bottom: 3px solid #444; 
+            border-bottom: 5px solid #23ae23; 
             z-index: 1000;
             text-align: center;
         }
 
 header nav a {
-            color: #fff;
+            color: #210781;
             margin-right: 20px;
             text-decoration: none;
             font-weight: bold;
