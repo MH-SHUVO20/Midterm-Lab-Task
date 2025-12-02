@@ -1,41 +1,41 @@
-
 body {
-            height: 2000px;
-            font-family: Arial, sans-serif;
-            background-color: black;
-            color:blueviolet;
-            overflow: scroll;
-        }
+    height: 2000px;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: blueviolet;
+    overflow: scroll;
+}
 
- .contact {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: white;
-            padding: 20px;
-            border: 5px solid rgb(19, 29, 212);
-            z-index: 1000;
-            width: 180px;
-            text-align: center;
-            transition: background-color 0.3s ease;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        }
+.contact {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    padding: 20px;
+    border: 5px solid rgb(19, 29, 212);
+    z-index: 1000;
+    width: 180px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
 .contact:hover {
-            background-color: white;
-            cursor: pointer;
-        }
+    background-color: white;
+    cursor: pointer;
+}
 
- .contact h3 {
-            margin: 0 0 10px 0;
-            font-size: 18px;
-        }
+.contact h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
 
 .contact p {
-            margin: 5px 0;
-        }
+    margin: 5px 0;
+}
 
 .contact a {
-            color: rgb(0, 86, 179);
-            text-decoration: none;
-            font-weight: bold;
-        }
+    color: rgb(0, 86, 179);
+    text-decoration: none;
+    font-weight: bold;
+}

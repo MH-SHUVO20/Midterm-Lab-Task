@@ -1,40 +1,41 @@
 body {
-            font-family: Arial, sans-serif;
-            background-color: white;
-            margin: 10px;
-        }
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 10px;
+}
+
 .product {
-            display: inline-block;
-            width: 300px;
-            height: 390px; 
-            padding: 5px;
-            margin: 10px;
-            border: 2px solid black;
-            background-color: gainsboro;
-            text-align: center;
-            box-sizing: border-box;
-            vertical-align: top;
-        }
+    display: inline-block;
+    width: 300px;
+    height: 390px;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid black;
+    background-color: gainsboro;
+    text-align: center;
+    box-sizing: border-box;
+    vertical-align: top;
+}
 
 .product:hover {
-            outline: 3px solid rgba(88, 26, 197, 0.94);
-            outline-offset: 8px;
-        }
+    outline: 3px solid rgba(88, 26, 197, 0.94);
+    outline-offset: 8px;
+}
 
 .product img {
-            width: 120px;
-            height: 120px;
-            object-fit: cover;
-        }
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
 
 .des {
-            height: 90px; 
-            overflow: hidden;
-            margin: 5px 0;
-        }
+    height: 90px;
+    overflow: hidden;
+    margin: 5px 0;
+}
 
 a {
-            text-decoration: none;
-            color: blue;
-            font-weight: bold;
-        }
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
