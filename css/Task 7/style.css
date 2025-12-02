@@ -1,0 +1,29 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+
+        }
+
+header {
+            position: sticky;  
+            top: 0;           
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            border-bottom: 3px solid #444; 
+            z-index: 1000;
+            text-align: center;
+        }
+
+header nav a {
+            color: #fff;
+            margin-right: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+main {
+            margin-top: 30px; 
+            padding: 20px;
+            line-height: 1.7;
+        }

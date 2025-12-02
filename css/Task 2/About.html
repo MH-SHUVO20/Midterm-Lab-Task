@@ -5,11 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Page</title>
      <link rel="stylesheet" href="style.css">
+     <style>
+            body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #about {
+            background-color: moccasin;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            margin: 30px 0px;
+            text-align: center;
+        }
+
+        #education {
+            background-color: rgb(26, 221, 65);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            margin: 30px 0px;
+            text-align: center;
+        }
+
+        #hobbies {
+            background-color: lightblue;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            margin: 30px 0px;
+            text-align: center;
+        }
+
+        hr {
+            height: 5px;
+            background-color: rgb(14, 204, 207);
+            width: 80%;
+            border: none;
+            margin: 20px auto;
+        }
+     </style>
 </head>
 <body>
     <fieldset>
     <div id="about" class="section">
-    <legend><h2>About Me</h2></legend>
+    <h2>About Me</h2>
     <p style="color: blue;">Hi, I am Md. Mehedi Hasan Shuvo, an AI researcher and undergraduate CSE student at AIUB with a strong passion for Machine Learning, Deep Learning, Data Science, and Computer Vision. I enjoy developing intelligent, real-world systems and have worked on projects such as vehicle detection, waste classification, medical and plant disease analysis, NLP-based text mining, and various management applications. I regularly work with Python, Java, C#, TensorFlow, PyTorch, Keras, and YOLO models, and I am continuously exploring new areas in AI research. As a student member of IEEE and IEEE Computer Society, I remain committed to learning, innovation, and contributing to impactful technological advancements.</p>
 </div>
 
@@ -17,10 +59,33 @@
 <hr>
 <fieldset>
 <div id="education" class="section">
-    <legend><h2>Education</h2></legend>
-    <p>B.Sc. in CSE, American International University–Bangladesh (AIUB)</p>
-    <p>HSC Group-Science, Govt. Keshab Chandra College, Jhenaidah</p>
-    <p>SSC Group-Science, Garagonj Secondary School</p>
+    <h2>Education</h2>
+            <table border="1" cellpadding="8">
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                    <th>Result</th>
+                </tr>
+                <tr>
+                    <td>B.Sc. in CSE</td>
+                    <td>American International University–Bangladesh (AIUB)</td>
+                    <td>Expected 2026</td>
+                    <td>CGPA 3.75/4.00</td>
+                </tr>
+                <tr>
+                    <td>HSC (Science)</td>
+                    <td>Govt. Keshab Chandra College, Jhenaidah</td>
+                    <td>2020</td>
+                    <td>GPA 5.00</td>
+                </tr>
+                <tr>
+                    <td>SSC (Science)</td>
+                    <td>Garagonj Secondary School</td>
+                    <td>2018</td>
+                    <td>GPA 4.67</td>
+                </tr>
+            </table>
 </div>
 
 </fieldset>
@@ -28,7 +93,7 @@
 
 <fieldset>
     <div id="hobbies" class="section">
-    <legend><h2>Hobbies</h2></legend>
+    <h2>Hobbies</h2>
     <p>I enjoy coding, research, reading, and exploring new technologies.</p>
     <p>I enjoy playing chess and solving algorithmic problems.</p>
     <p>I like photography and traveling to new places.</p>
