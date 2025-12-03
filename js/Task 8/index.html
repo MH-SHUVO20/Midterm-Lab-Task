@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="div1">
+        <h2>Registration Form</h2>
+
+        <label>Select User Type:</label>
+        <select id="select">
+            <option value="">Select One</option>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+        </select>
+        <br><br>
+
+        <div id="div2" class="hidden">
+            <label>Roll Number:</label>
+            <input type="number" id="roll" placeholder="Enter Roll">
+        </div>
+
+        <div id="div3" class="hidden">
+            <label>Department:</label>
+            <input type="text" id="dept" placeholder="Enter Department">
+        </div>
+
+        <br>
+        <button>Submit</button>
+    </div>
+
+</body>
+</html>
