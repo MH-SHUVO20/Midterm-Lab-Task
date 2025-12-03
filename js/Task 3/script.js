@@ -3,7 +3,7 @@ const lightTheme = {
     textColor: "#333",
     boxBg: "#e6e6e6",
     boxBorder: "#999",
-    btnText: "Switch to Dark Mode"
+    btnText: "Dark Mode"
 };
 
 const darkTheme = {
@@ -11,7 +11,7 @@ const darkTheme = {
     textColor: "#f0f0f0",
     boxBg: "#1e1e1e",
     boxBorder: "#444",
-    btnText: "Switch to Light Mode"
+    btnText: "Light Mode"
 };
 
 let body = document.body;
