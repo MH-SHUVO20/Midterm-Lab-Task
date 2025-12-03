@@ -27,7 +27,7 @@ function showTime() {
     }
 
     let time = h + ":" + m + ":" + s + " " + session;
-    
+
     document.getElementById("clock").innerText = time;
 }
 
