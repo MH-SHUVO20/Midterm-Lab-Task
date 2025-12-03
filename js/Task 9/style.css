@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.div1 {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.div2 {
+    background-color: rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+#clk {
+    font-family: monospace;
+    font-size: 30px;
+    margin: 0;
+}
+
+#grt {
+    color: #ffd700;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+}
+
+.navBox button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navBox button:hover {
+    text-decoration: underline;
+    color: #ffd700;
+}
+
+.div3 {
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.div3 div {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+#tBtn {
+    padding: 5px 10px;
+    cursor: pointer;
+    background: white;
+    color: #003366;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+body.dark {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+body.dark .div3 div {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+
+body.dark .div1 {
+    background-color: #000;
+}
+
+body.dark input,
+body.dark textarea {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+}
+
+body.dark button[type="submit"] {
+    background-color: #444;
+}
+
+body.dark a {
+    color: #66b2ff;
+}

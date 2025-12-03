@@ -5,36 +5,49 @@
     <title>MH SHUVO</title>
     <meta charset="UTF-8">
     <meta name="author" content="Md. Mehedi Hasan Shuvo">
-    <meta name="description" content="Personal Portfolio Webpage of Md. Mehedi Hasan Shuvo">
-    <meta name="keywords" content="Portfolio, AI Researcher, Student, AIUB, CSE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
-    <header>
-        <h1>MD. MEHEDI HASAN SHUVO</h1>
-        <nav>
-            <a href="#intro">Home</a>
-            <a href="#about">About Me</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
-            <a href="#publication">Publications</a>
-            <a href="#membership">Memberships</a>
-            <a href="#contact">Contact</a>
-            <a href="#reference">References</a>
-        </nav>
-    </header>
 
-    <main>
-        <section id="intro">
+    <div class="div1">
+        <div class="top">
+            <h1>MD. MEHEDI HASAN SHUVO</h1>
+            <button id="tBtn">Dark Mode</button>
+        </div>
+
+        <div class="div2">
+            <h2 id="clk">00:00:00 AM</h2>
+            <p id="grt"></p>
+        </div>
+
+        <div class="navBox">
+            <button id="b1">Home</button>
+            <button id="b2">About</button>
+            <button id="b3">Skills</button>
+            <button id="b4">Projects</button>
+            <button id="b5">Education</button>
+            <button id="b6">Publications</button>
+            <button id="b7">Memberships</button>
+            <button id="b8">Contact</button>
+            <button id="b9">References</button>
+        </div>
+    </div>
+
+    <div class="div3">
+
+        <div id="p1">
             <h2>Hi, I am Md. Mehedi Hasan Shuvo</h2>
-            <img src="mehedi.jpg" alt="Md. Mehedi Hasan Shuvo" width="200" height="200">
+            <img src="mehedi.jpg" alt="Md. Mehedi Hasan Shuvo" width="200" height="200"
+                onerror="this.src='https://via.placeholder.com/200'">
             <p>AI Researcher | Undergraduate Student at AIUB | Passionate about Artificial Intelligence, Machine
                 Learning, Deep Learning, and Data Science</p>
             <hr>
-        </section>
+        </div>
 
-        <section id="about">
+        <div id="p2" class="hide">
             <h2>About Me</h2>
             <p>I am an AI researcher and undergraduate student of Computer Science and Engineering (major in Information
                 Systems) at the American International University–Bangladesh (AIUB). My academic and research interests
@@ -49,9 +62,9 @@
                 <li>American International University–Bangladesh (AIUB)</li>
             </ul>
             <hr>
-        </section>
+        </div>
 
-        <section id="skills">
+        <div id="p3" class="hide">
             <h2>Skills</h2>
             <p><strong>Programming:</strong> Python, Java, C#, C++, C, R, HTML</p>
             <p><strong>ML/AI:</strong> KNN, Decision Trees, SVM, XGBoost, CNN, RNN, LSTM, YOLO, NLP</p>
@@ -60,9 +73,9 @@
             <p><strong>Databases:</strong> Oracle, MySQL</p>
             <p><strong>Tools:</strong> Google Colab, R Studio, Matlab, VS Code, Git, Kaggle</p>
             <hr>
-        </section>
+        </div>
 
-        <section id="projects">
+        <div id="p4" class="hide">
             <h2>Projects</h2>
             <h3>Selected Projects</h3>
             <ul>
@@ -80,9 +93,9 @@
                 <li><strong>Database Project:</strong> School Management System using Oracle</li>
             </ul>
             <hr>
-        </section>
+        </div>
 
-        <section id="education">
+        <div id="p5" class="hide">
             <h2>Education</h2>
             <table border="1" cellpadding="8">
                 <tr>
@@ -111,13 +124,12 @@
                 </tr>
             </table>
             <hr>
-        </section>
+        </div>
 
-        <section id="publication">
+        <div id="p6" class="hide">
             <h2>Publications</h2>
             <ul>
-                <li><strong>ECCE 2025 (IEEE, Bangladesh):</strong> <a
-                        href="https://ieeexplore.ieee.org/document/11013964">A Deep Learning-Based Framework for
+                <li><strong>ECCE 2025 (IEEE, Bangladesh):</strong> <a href="#">A Deep Learning-Based Framework for
                         Accurate Detection and Classification of On-Road Vehicles Using Improved YOLOv11</a></li>
             </ul>
             <p>Abstract: Vehicle detection and classification systems have significantly improved in recent years due to
@@ -134,47 +146,41 @@
                 a strong option for real-time traffic monitoring and autonomous driving applications, as the results
                 show that it greatly increases precision and recall, especially in high-traffic situations.</p>
             <hr>
-        </section>
+        </div>
 
-        <section id="membership">
+        <div id="p7" class="hide">
             <h2>Memberships</h2>
             <ul>
                 <li>Student Member, IEEE</li>
                 <li>Student Member, IEEE Computer Society</li>
             </ul>
             <hr>
-        </section>
+        </div>
 
-        <section id="contact">
+        <div id="p8" class="hide">
             <h2>Contact</h2>
             <ul>
                 <li>Email: mdmehedihasanshuvo994@gmail.com</li>
                 <li>Phone: +8801954-596854</li>
-                <li>LinkedIn: <a
-                        href="https://www.linkedin.com/in/mh-shuvo-aiub/">https://www.linkedin.com/in/mh-shuvo-aiub/</a>
-                </li>
-                <li>GitHub: <a href="https://github.com/MH-SHUVO20">https://github.com/MH-SHUVO20</a></li>
-                <li>Portfolio: <a href="https://mhshuvo.me/">https://mhshuvo.me/</a></li>
-                <li>Facebook: <a
-                        href="https://www.facebook.com/mh.shuvo.7370">https://www.facebook.com/mh.shuvo.7370</a></li>
             </ul>
 
-            <form>
-                <label>Name:</label><br>
-                <input type="text" required><br><br>
+            <form id="frm">
+                <label>Name:</label>
+                <input type="text" id="in1">
 
-                <label>Email:</label><br>
-                <input type="email" required><br><br>
+                <label>Email:</label>
+                <input type="text" id="in2">
 
-                <label>Message:</label><br>
-                <textarea rows="4" required></textarea><br><br>
+                <label>Message:</label>
+                <textarea id="in3" rows="4"></textarea>
 
+                <p id="err"></p>
                 <button type="submit">Send</button>
             </form>
             <hr>
-        </section>
+        </div>
 
-        <section id="reference">
+        <div id="p9" class="hide">
             <h2>References</h2>
             <ul>
                 <li>
@@ -187,17 +193,18 @@
                     <strong>Md Monayem Islam</strong><br>
                     <b>Senior Software Engineer</b><br>
                     Nybsys (Pvt.) Ltd.<br>
-                    Email: contact@monayemislam.me<br>
-                    Website: <a href="https://monayemislam.me">https://monayemislam.me</a>
+                    Email: contact@monayemislam.me
                 </li>
             </ul>
             <hr>
-        </section>
-    </main>
+        </div>
+
+    </div>
 
     <footer>
-        <p>&copy; 2024 Md. Mehedi Hasan Shuvo. All rights reserved.</p>
+        <p>&copy; 2025 Md. Mehedi Hasan Shuvo. All rights reserved.</p>
     </footer>
+
 </body>
 
 </html>
